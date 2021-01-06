@@ -1,0 +1,80 @@
+.container {
+  text-align: center; }
+
+div > a {
+  text-decoration: none;
+  text-align: center; }
+
+svg {
+  padding: 20px;
+  color: #4285f4; }
+
+input[type="submit"] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 28px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+input[type="submit"]:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+input[name="q"] {
+  width: 582px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input[name="q"]:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0); 
+}
+
+div > label {
+  text-align: left; }
+
+input[value="Advanced Search"] {
+  background-color: #4b8df9;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: small;
+  padding: 5px; }
+
+path {
+  color: #9aa0a6;
+  width: 20px;
+  height: 20px;
+}
+
+svg {
+  display: block;
+  height: 5%;
+  width: 5%;
+  color: #9aa0a6;
+}
+
+/*# sourceMappingURL=search.css.map */
